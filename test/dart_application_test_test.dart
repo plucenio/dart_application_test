@@ -58,4 +58,8 @@ void main() {
   test('Test 14', () {
     expect(execute([1, ...List.generate(998, (index) => 0), 1]), equals(998));
   });
+
+  test('Test 15', () {
+    expect(execute([4, 2, 0, 3, 2, 5]), equals(9));
+  });
 }
